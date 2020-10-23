@@ -27,34 +27,34 @@ function galeria_template(data) {
   <div class="uk-position-relative uk-visible-toggle uk-light" uk-scrollspy="cls:uk-animation-fade" tabindex="-1" uk-slideshow="animation: pull">
     <ul class="uk-slideshow-items">
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/01.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/01.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/02.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/02.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/03.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/03.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/04.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/04.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/05.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/05.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/06.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/06.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/07.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/07.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/08.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/08.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/09.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/09.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
       <li>
-        <img data-src="https://feedmyfear.github.io/vibaia/galeria/10.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
+        <img data-src="./galeria/10.jpg" alt="" uk-cover uk-img="target: !.uk-slideshow-items">
       </li>
     </ul>
     <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
