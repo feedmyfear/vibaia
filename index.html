@@ -10,14 +10,24 @@
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+  <script src="js/data.js"></script>
   <script src="js/main.js"></script>
-  <title>Galeria - Vi</title>
+  <script src="js/custom.js"></script>
+  <title>Vih e Braia</title>
 </head>
 <body>
+  <div class="loader-container">
+    <div class="loader"></div>
+  </div>
   <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 200">
     <nav class="uk-navbar-container" uk-navbar>
       <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
+          <li>
+            <a class="btn btn-primary" id="index" onclick="index_abrir('teste')">
+              Início
+            </a>
+          </li>
           <li>
             <a class="btn btn-primary" id="galeria" onclick="galeria_abrir('teste')">
               Galeria
@@ -29,7 +39,7 @@
             </a>
           </li>
           <li>
-            <a class="btn btn-primary" id="playlist" onclick="checklist_abrir('teste')">
+            <a class="btn btn-primary" id="checklist" onclick="checklist_abrir('teste')">
               Checklist
             </a>
           </li>
@@ -38,8 +48,5 @@
     </nav>
   </div>
   <main id="main"></main>
-  <div class="loader-container" style="display: none;">
-    <div class="loader"></div>
-  </div>
 </body>
 </html>
